@@ -65,7 +65,7 @@ dependencies {
     implementation DemoAppDependencies.coroutines
     implementation DemoAppDependencies.lifecycle
     implementation DemoAppDependencies.lifeCycleProcess
-    implementation 'com.google.android.gms:play-services-wearable:17.0.0'
+    implementation 'com.google.android.gms:play-services-wearable:17.0.0' // For utilising Wear OS Data Layer API
     wearApp project(':Wearable')
 
     // TODO During the first stages of the project, include the library here. Later on we should use the library from the repository
